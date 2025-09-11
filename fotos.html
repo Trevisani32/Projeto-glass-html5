@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title> Tudo sobre o Google Glass</title>
+    <meta charset="UTF-8"/>
+    <title> Tudo sobre google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
-<h1> Google Glass </h1> 
-<h2> A revolução do Google está chegando </h2> 
+<div id="interface">
 
-<img src="_imagens/glass-logo-peq.jpg">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+    <img id="icone" src="_imagens/fotos.png"/>
+<nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul>
+        <li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/fotos.png')"><a href="index.html"> Home</a></li>
+        <li onmouseover="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/fotos.png')"><a href="specs.html"> Especificações</a></li>
+        <li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/fotos.png')"><a href="fotos.html"> Fotos</a></li>
+        <li onmouseover="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/fotos.png')"><a href="multimidia.html"> Multimídia</a></li>
+        <li onmouseover="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/fotos.png')"><a href="fale-conosco.html"> Fale conosco</a></li>
+    </ul>
+</nav>
+    </header>
 
 Glass > Fotos
 Galeria de Imagens do Google Glass
@@ -30,8 +42,11 @@ Veja na nossa galeria de fotos várias belas imagens que mostram algumas das pri
 - Vários tipos de lente
 - Informações importantes
 
-Copyright 2013 - by Gustavo Guanabara
-
-Facebook | Twitter
+<footer id="rodape">
+<br> Desenvolvido por Gustavo Guanabara | Revisado por Ygor Trevisani <br> 2013 - 2024 &copy; Todos os direitos reservados <br>
+<a href="https://github.com/Trevisani32" target="_blank"> GitHub</a> | 
+<a href="https://www.linkedin.com/in/ygor-trevisani/" target="_blank"> LinkedIn </a>
+</footer>
+</div>
 </body>
 </html>

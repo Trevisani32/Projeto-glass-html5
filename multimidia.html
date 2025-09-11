@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <Title> Tudo Sobre o Google Glass </Title>
+    <meta charset="UTF-8"/>
+    <title> Tudo sobre google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
-Google Glass
-A revolução do Google está chegando
+<div id="interface">
 
-[AQUI ENTRA UMA FOTO]
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+    <img id="icone" src="_imagens/multimidia.png"/>
+<nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul>
+        <li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="index.html"> Home</a></li>
+        <li onmouseover="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="specs.html"> Especificações</a></li>
+        <li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fotos.html"> Fotos</a></li>
+        <li onmouseover="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="multimidia.html"> Multimídia</a></li>
+        <li onmouseover="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fale-conosco.html"> Fale conosco</a></li>
+    </ul>
+</nav>
+    </header>
 
 Glass > Multimídia
 Sons e Vídeos
@@ -27,7 +39,11 @@ Atualizado em 01/Maio/2013
 [AQUI ENTRA UM VÍDEO]
 [AQUI ENTRA UM ÁUDIO]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+<footer id="rodape">
+<br> Desenvolvido por Gustavo Guanabara | Revisado por Ygor Trevisani <br> 2013 - 2024 &copy; Todos os direitos reservados <br>
+<a href="https://github.com/Trevisani32" target="_blank"> GitHub</a> | 
+<a href="https://www.linkedin.com/in/ygor-trevisani/" target="_blank"> LinkedIn </a>
+</footer>
+</div>
 </body>
 </html>
